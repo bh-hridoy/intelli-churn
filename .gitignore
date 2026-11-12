@@ -1,0 +1,66 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files
+data/
+ml/data/
+*.csv
+*.parquet
+
+# ML experiment artifacts
+mlruns/
+ml/artifacts/
+dvc_storage/
+
+# Model files (avoid committing large binaries)
+*.pkl
+*.joblib
+*.model
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python tooling
+.ruff_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+
+# Build files
+build/
+
+# Docker
+.docker/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
