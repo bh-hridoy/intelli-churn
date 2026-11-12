@@ -1,0 +1,5 @@
+{
+    "threshold": 0.3,
+    "selection_method": "Maximum validation F1-score",
+    "model": "Random Forest"
+}

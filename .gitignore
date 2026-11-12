@@ -9,6 +9,7 @@ ENV/
 __pycache__/
 *.py[cod]
 *.pyo
+*.egg-info/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
@@ -28,6 +29,7 @@ ml/data/
 mlruns/
 ml/artifacts/
 dvc_storage/
+ml/models/*.joblib
 
 # Model files (avoid committing large binaries)
 *.pkl
@@ -64,3 +66,5 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+

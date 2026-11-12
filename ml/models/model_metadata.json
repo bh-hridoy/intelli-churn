@@ -1,0 +1,48 @@
+{
+    "model_name": "Random Forest",
+    "model_type": "RandomForestClassifier",
+    "n_estimators": 300,
+    "random_state": 42,
+    "training_records": 5634,
+    "number_of_input_features": 19,
+    "input_features": [
+        "Tenure Months",
+        "Monthly Charges",
+        "Total Charges",
+        "Gender",
+        "Senior Citizen",
+        "Partner",
+        "Dependents",
+        "Phone Service",
+        "Multiple Lines",
+        "Internet Service",
+        "Online Security",
+        "Online Backup",
+        "Device Protection",
+        "Tech Support",
+        "Streaming TV",
+        "Streaming Movies",
+        "Contract",
+        "Paperless Billing",
+        "Payment Method"
+    ],
+    "target": "Churn Value",
+    "decision_threshold": 0.3,
+    "test_metrics": {
+        "accuracy": 0.757984,
+        "precision": 0.531309,
+        "recall": 0.748663,
+        "f1_score": 0.621532,
+        "confusion_matrix": [
+            [
+                788,
+                247
+            ],
+            [
+                94,
+                280
+            ]
+        ]
+    },
+    "dataset": "IBM Telco Customer Churn"
+}
