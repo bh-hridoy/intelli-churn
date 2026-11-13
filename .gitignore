@@ -68,3 +68,9 @@ Thumbs.db
 logs/
 
 
+# MLflow tracking data
+ml/mlflow.db
+ml/mlflow.db-shm
+ml/mlflow.db-wal
+ml/mlartifacts/
+ml/mlruns/
